@@ -1,0 +1,21 @@
+{
+  "name": "cypress-intercept-binary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Samuel Imfeld",
+  "license": "MIT",
+  "scripts": {
+    "cypress:start": "cypress open",
+    "server:start": "node ./server/app.js",
+    "app:start": "cd app && next dev"
+  },
+  "devDependencies": {
+    "cypress": "^7.4.0",
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "next": "^10.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
